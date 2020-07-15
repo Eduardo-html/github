@@ -1,0 +1,96 @@
+    body {
+        font-family: 'Galada', cursive;
+        background-image: url("background.png");
+    }
+    
+    #textTopo {
+        background: #76b124;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 95px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    #textform {
+        color: #FFF;
+    }
+    
+    main {
+        color: #FFF;
+        width: 100%;
+        height: 100%;
+        margin: 5px 5px 470px 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    #botao-user {
+        background: #3b45ca;
+        color: #FFFFFF;
+        overflow: visible;
+        border-radius: 10px;
+    }
+    
+    #rodape {
+        background: #e8f1db;
+        color: #3b45ca;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        margin: 0px 0px 0px 0px;
+        font-size: 15px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            background-image: url("background.png");
+            width: 100%;
+            height: 100%;
+        }
+        #textTopo {
+            background: #76b124;
+            color: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 95px;
+            margin: 10px 0px 0px 0px;
+        }
+        #textform {
+            color: #FFF;
+        }
+        main {
+            width: 100%;
+            height: 100%;
+            margin: 5px 5px 550px 5px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #botao-user {
+            background: #3b45ca;
+            color: #FFFFFF;
+            overflow: visible;
+            border-radius: 10px;
+        }
+        #rodape {
+            background: #e8f1db;
+            color: #3b45ca;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content:center;
+            align-items:flex-end;
+            margin: 0px 0px 0px 0px;
+            font-size: 15px;
+            position: absolute;
+        }
+    }

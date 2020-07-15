@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="github.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Git.css">
+    <title>Git Hub Usuário</title>
+</head>
+
+<body>
+  
+        <header id="textTopo">Git Hub Usuário</header>
+    
+    <main>
+        <div id="DivUser">
+            <label id="textform" for="name">Usuário GitHub:</label>
+            <input type="text" id="inputUsuario" placeholder="GIT LOGIN">
+            <input type="submit" value="Buscar" id="botao-user">
+        </div>
+    
+    
+    
+        <div id="usuarios">
+    
+    
+        </div>
+        <div id="repositorios">
+    
+    
+        </div>
+    
+        <script>
+            let btn = document.getElementById("botao-user");
+    
+    
+            btn.addEventListener("click", () => {
+    
+                RepositorioController.geraRepositorio();
+                PerfilGitController.geraProfile();
+    
+    
+            });
+    
+    
+    
+        </script>
+         
+    </main>
+    </script>
+    </main>
+
+    <script src="src/models/PerfilGit.js"></script>
+    <script src="src/models/RepositorioGit.js"></script>
+
+    <script src="src/views/UsuarioGitView.js"></script>
+    <script src="src/views/RepositorioGitView.js"></script>
+
+
+    <script src="src/controllers/PerfilGitController.js"></script>
+    <script src="src/controllers/RepositorioController.js"></script>
+   
+    
+
+    
+        <footer id="rodape">
+            <span id="copy">&copy; Dudu_Resilia_2020.</span>
+        </footer>
+  
+</body>
+
+</html>

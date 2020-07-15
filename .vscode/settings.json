@@ -1,0 +1,7 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+"files.associations": {
+    "*html": "html"
+},
+"git.ignoreLimitWarning": true,
+}
